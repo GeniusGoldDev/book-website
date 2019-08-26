@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- Mirrored from wptheme.co.in/travel-html/package-detail-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 16:36:03 GMT -->
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Our Packages</title>
+<!-- Bootstrap stylesheet -->
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900%7CPT+Serif:400,400i,700,700i" rel="stylesheet"> 
+<link href="css/ele-style.css" rel="stylesheet" type="text/css"/>
+<!-- stylesheet -->
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+<!-- font-awesome -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<!-- crousel css -->
+<link href="js/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css" />
+<!--bootstrap select-->
+<link href="js/dist/css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+<link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="js/preetycheble/prettyCheckable.css"/>
+</head>
+<body>
+<!-- top start here -->
+	<div id="top">
+		<div class="container">
+			<div id="top-links" class="nav">
+				<ul class="list-inline pull-left">
+					<li>
+						<a href="#">Welcome to TMD travel agency</a>
+					</li>
+					<li>
+						<form method="post" enctype="multipart/form-data" id="form-language">
+							<div class="btn-group">
+								<button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+									Language : <span class="name"><span class="hidden-xs">English</span> <i class="fa fa-caret-down"></i></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><a href="javascript:;">English</a></li>
+								</ul>
+							</div>
+						</form>
+					</li>
+					<li>
+						<form method="post" enctype="multipart/form-data" id="form-currency">
+							<div class="btn-group">
+								<button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+                                      Currency : <span class="name"><span class="hidden-xs"> (USD)</span> <i class="fa fa-caret-down"></i></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li><button class="currency-select btn btn-link btn-block" type="button" name="EUR">&#8364; Euro</button></li>
+									<li><button class="currency-select btn btn-link btn-block" type="button" name="GBP">&#163; Pound Sterling</button></li>
+									<li><button class="currency-select btn btn-link btn-block" type="button" name="USD">$ US Dollar</button></li>
+								</ul>
+							</div>
+						</form>
+					</li>
+				</ul>
+				
+				<ul class="list-inline pull-right button">
+					<li><a href="login.html">Login</a>
+						<a href="register.html">Register</a>
+					</li>
+					<li><a href="my_account_wishlist.html"><i class="icon_heart"></i>Wishlist</a></li>
+					<li><a href="shoppingcart.html"><i class="icon_cart"></i>Cart</a></li>	
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- top end here -->
+	
+<!-- header start here-->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="social-icon">
+						<ul class="list-inline">
+							<li>
+								<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="https://plus.google.com/" target="_blank"><i class="social_googleplus" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+							</li>
+							<li>
+								<a href="https://in.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+							</li>
+							<li><a href="https://photos.google.com/" target="_blank"><i class="social_picassa"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+			    <div class="col-sm-4 col-md-4 col-xs-12">
+					<div id="logo">
+						<a href="index-2.html"><img class="img-responsive" src="images/logo.png" alt="logo" title="logo" /></a>
+					</div>
+				</div>
+			    <div class="col-sm-4 col-md-4 col-xs-12">
+					<div class="button-login pull-right">
+						<button type="button" class="btn btn-default btn-lg" onclick="location.href='tour-booking-form.html'">Booking Now</button>
+						<button type="button" class="btn btn-primary btn-lg" onclick="location.href='tour-grid-view.html'">Take a tour <i class="fa fa-thumbs-o-up" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- header end here -->
+
+<!-- menu start here -->
+	<div id="menu">	
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-xs-12">
+					<nav class="navbar">
+						<div class="navbar-header">
+							<span class="menutext visible-xs">Menu</span>
+							<button data-target=".navbar-ex1-collapse" data-toggle="collapse" class="btn btn-navbar navbar-toggle" type="button"><i class="fa fa-bars" aria-hidden="true"></i></button>
+						</div>
+						<div class="collapse navbar-collapse navbar-ex1-collapse padd0">
+							<ul class="nav navbar-nav">
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">HOME</a>
+									<ul class="dropdown-menu">
+										<li><a href="index-2.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Homepage 1</a></li>
+										<li><a href="header2.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Homepage 2</a></li>
+										<li><a href="header3.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Homepage 3</a></li>
+										<li><a href="header4.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Homepage 4</a></li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Travel</a>
+									<ul class="dropdown-menu">
+										<li class="dropdown-submenu">
+											<a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Tour</a>
+											<ul class="dropdown-menu">
+												<li><a href="tour-grid-view.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tour</a></li>
+												<li><a href="tour-detail-view.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tour Detail</a></li>
+												<li><a href="tour-booking-form.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tour Booking Form</a></li>
+												<li><a href="thank-you.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Thank You</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Places</a>
+											<ul class="dropdown-menu">
+												<li><a href="place.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Places</a></li>
+												<li><a href="place-detail-view.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Places Detail</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Flight</a>
+											<ul class="dropdown-menu">
+												<li><a href="flights.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Flight</a></li>
+												<li><a href="flight-detail-view.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Flight Detail</a></li>
+												<li><a href="flight-booking-form.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Flight Booking Form</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-submenu">
+											<a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Hotel</a>
+											<ul class="dropdown-menu">
+												<li><a href="hotel.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hotel</a></li>
+												<li><a href="hotel-detail-view.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hotel Detail</a></li>
+												<li><a href="hotel-booking-form.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hotel Booking Form</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Packages</a>
+									<ul class="dropdown-menu">
+										<li><a href="packages.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Packages</a></li>
+										<li><a href="package-detail-view.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Packages Detail</a></li>
+									</ul>
+								</li>
+								<li><a href="guides.html">GUIDES</a></li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
+									<ul class="dropdown-menu">
+										<li><a href="shop.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shop</a></li>
+										<li><a href="shopdetail.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Product Detail</a></li>
+										<li><a href="shoppingcart.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shopping Cart</a></li>
+										<li><a href="checkout.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Checkout</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">user</a>
+									<ul class="dropdown-menu">
+										<li><a href="login.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Login</a></li>
+										<li><a href="register.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Register</a></li>
+										<li><a href="my_account_dashboard.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dashboard</a></li>
+										<li><a href="my_account_profile.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Profile</a></li>
+										<li><a href="my_account_profile_edit.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Profile Edit</a></li>
+										<li><a href="my_account_booking.html"><i class="fa fa-angle-right" aria-hidden="true"></i>My Boooking List</a></li>
+										<li><a href="my_account_wishlist.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Wishlist</a></li>
+										<li><a href="my_account_setting.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Setting</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">BLOG</a>
+									<ul class="dropdown-menu">
+										<li><a href="blog.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>
+										<li><a href="blog-detail.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Post Page</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES</a>
+									<ul class="dropdown-menu">
+										<li><a href="gallery.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gallery</a></li>
+										<li><a href="error-404.html"><i class="fa fa-angle-right" aria-hidden="true"></i>404 error Page</a></li>
+										<li><a href="faq.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Faq</a></li>
+										<li><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>About</a></li>
+										<li><a href="contact.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Contact</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- menu end here -->
+
+<!-- breadcrumb start here -->
+<div class="bread-crumb">
+	<div class="container">
+		<h2>Our Packages</h2>
+		<ul class="list-inline">
+			<li><a href="index-2.html">home</a></li>
+			<li><a href="packages.html">Packages</a></li>
+			<li><a href="package-detail-view.html">safari tour</a></li>
+		</ul>
+	</div>
+</div>
+<!-- breadcrumb end here -->
+
+<!-- main container start here -->
+<div class="placetop">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="left-box">
+					<h6>TALK TO EXPERT</h6>
+					<div class="talk">
+						<ul class="list-unstyled">
+							<li>
+								<i class="fa fa-skype" aria-hidden="true"></i>
+								<h4>CONTACT SKYPE</h4>
+								<P>John Doe</P>
+							</li>
+							<li>
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<h4>PHONE</h4>
+								<P>+1 (123) 123 12345</P>
+							</li>
+							<li>
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<h4>EMAIL</h4>
+								<P>Johndoe01@gmail.com</P>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="left-box">
+					<h6>LAST MINUTE DEALS</h6>
+					<div class="last1">
+						<ul class="list-unstyled">
+							<li>
+								<div class="product-thumb">
+									<div class="image">
+										<img src="images/tour/img1.jpg" class="img-responsive" alt="img1" title="img1" />
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<h4>Island Trip</h4>
+										<div class="rate">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										</div>
+										<p>HONAI - VIETNAM</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="product-thumb">
+									<div class="image">
+										<img src="images/tour/img2.jpg" class="img-responsive" alt="img2" title="img2" />
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<h4>Goa Trip</h4>
+										<div class="rate">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										</div>
+										<p>HONAI - VIETNAM</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="product-thumb">
+									<div class="image">
+										<img src="images/tour/img3.jpg" class="img-responsive" alt="img3" title="img3" />
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<h4>USA Trip</h4>
+										<div class="rate">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										</div>
+										<p>HONAI - VIETNAM</p>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="product-thumb">
+									<div class="image">
+										<img src="images/tour/img4.jpg" class="img-responsive" alt="img4" title="img4" />
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<h4>Beach</h4>
+										<div class="rate">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										</div>
+										<p>HONAI - VIETNAM</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="left-image">
+					<img src="images/tour/banner1.jpg" class="img-responsive" alt="banner1" title="banner1" />
+				</div>
+			</div>
+			<div class="col-sm-9 mainpage">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="thumb">
+							<img src="images/p01.jpg" alt="image1" title="image1" class="img-responsive"/>
+				
+						</div>
+					</div>
+					<br/>&nbsp;
+					<div class="tour-detail col-sm-12">
+						<ul class="nav nav-tabs list-inline">
+							<li class="active">
+								<input type="checkbox" value="None"  name="pool" class="checkclass checkbox-inline"/><a href="#detail" data-toggle="tab" aria-expanded="true">Package Detail</a>
+							</li>
+							<li class="">
+								<input type="checkbox" value="None"  name="pool" class="checkclass checkbox-inline"/><a href="#yes-no" data-toggle="tab" aria-expanded="false">Included or Not</a>
+							</li>
+							<li class="">
+								<input type="checkbox" value="None"  name="pool" class="checkclass checkbox-inline"/><a href="#gallery" data-toggle="tab" aria-expanded="false">gallery</a>
+							</li>
+							<li class="">
+								<input type="checkbox" value="None"  name="pool" class="checkclass checkbox-inline"/><a href="#review" data-toggle="tab" aria-expanded="false">review</a>
+							</li>
+							<li class="">
+								<input type="checkbox" value="None"  name="pool" class="checkclass checkbox-inline"/><a href="#add-review" data-toggle="tab" aria-expanded="false">add review</a>
+							</li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane col-sm-12" id="yes-no">
+								<ul class="list-unstyled">
+									<li><img src="images/Drink.png" alt="Drink" title="Drink" class="img-responsive"/> All Drinks included <span class="pull-right yes">Yes</span></li>
+									<li><img src="images/lunch.png" alt="lunch" title="lunch" class="img-responsive"/> Lunch in restaurant <span class="pull-right yes">Yes</span></li>
+									<li><img src="images/tickets.png" alt="tickets" title="tickets" class="img-responsive"/> All Tickets meuseum <span class="pull-right yes">Yes</span></li>
+									<li><img src="images/shop.png" alt="shop" title="shop" class="img-responsive"/> Typical Souvenir <span class="pull-right No">No</span></li>
+								</ul>
+							</div>
+							<div class="tab-pane active col-sm-12" id="detail">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus, nulla quis dignissim pellentesque, erat odio fermentum ante, vel fringilla lacus nibh vel massa. Nulla justo orci, porta eget libero fringilla, iaculis posuere dolor. Phasellus eleifend mauris non augue vulputate ultricies. Nulla facilisi. Donec tempor suscipit justo, Vitae maximums mauris posuere non. erat odio fermentum ante, vel fringilla lacus nibh vel massa. Nulla justo orci, porta eget libero fringilla, iaculis posuere dolor.</p>
+								<h6>DAY 01</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus, nulla quis dignissim pellentesque, erat odio fermentum ante. Phasellus eleifend mauris non augue vulputate ultricies.</p>
+								<h6>DAY 02</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus, nulla quis dignissim pellentesque, erat odio fermentum ante. Phasellus eleifend mauris non augue vulputate ultricies.</p>
+								<h6>DAY 03</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus, nulla quis dignissim pellentesque, erat odio fermentum ante. Phasellus eleifend mauris non augue vulputate ultricies.</p>
+								<h6>DAY 04</h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis luctus, nulla quis dignissim pellentesque, erat odio fermentum ante. Phasellus eleifend mauris non augue vulputate ultricies.</p>
+							</div>
+							<div class="tab-pane col-sm-12" id="gallery">
+								<ul class="list-inline">
+									<li><img src="images/tour/g1.jpg" class="img-responsive" alt="g1" title="g1" /></li>
+									<li><img src="images/tour/g2.jpg" class="img-responsive" alt="g2" title="g2" /></li>
+									<li><img src="images/tour/g3.jpg" class="img-responsive" alt="g3" title="g3" /></li>
+									<li><img src="images/tour/g4.jpg" class="img-responsive" alt="g4" title="g4" /></li>
+									<li><img src="images/tour/g5.jpg" class="img-responsive" alt="g5" title="g5" /></li>
+									<li><img src="images/tour/g6.jpg" class="img-responsive" alt="g6" title="g6" /></li>
+									<li><img src="images/tour/g7.jpg" class="img-responsive" alt="g7" title="g7" /></li>
+									<li><img src="images/tour/g8.jpg" class="img-responsive" alt="g8" title="g8" /></li>
+									<li><img src="images/tour/g9.jpg" class="img-responsive" alt="g9" title="g9" /></li>
+									<li><img src="images/tour/g10.jpg" class="img-responsive" alt="g10" title="g10" /></li>
+								</ul>
+							</div>
+							<div class="tab-pane col-sm-12" id="review">
+								<div class="review">
+									<img src="images/tour/pic1.jpg" class="img-responsive" alt="pic1" title="pic1" />
+									<div class="caption">
+										<h6>John Doe <span>27-Jan-2017</span></h6>
+										<div class="rate">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum, dolor sit amet.</p>
+									</div>
+								</div>
+								<div class="review">
+									<img src="images/tour/pic2.jpg" class="img-responsive" alt="pic2" title="pic2" />
+									<div class="caption">
+										<h6>John Doe <span>27-Jan-2017</span></h6>
+										<div class="rate">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum, dolor sit amet.</p>
+									</div>
+								</div>
+								<div class="review">
+									<img src="images/tour/pic3.jpg" class="img-responsive" alt="pic3" title="pic3" />
+									<div class="caption">
+										<h6>John Doe <span>27-Jan-2017</span></h6>
+										<div class="rate">
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star" aria-hidden="true"></i>
+											<i class="fa fa-star-half-o" aria-hidden="true"></i>
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum, dolor sit amet.</p>
+									</div>
+								</div>
+								<div class="text-center">
+									<button type="button" class="btn-primary">View More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+								</div>
+							</div>
+							<div class="tab-pane col-sm-12" id="add-review">
+								<h2>ADD REVIEW</h2>
+								<form class="form-horizontal row" method="post">
+									<fieldset>
+										<div class="form-group col-sm-6">
+											<label>Name*</label>
+											<input class="form-control" id="input-name" value="" name="jobname" required="" type="text">
+											<label>Email*</label>
+											<input class="form-control" id="input-email" value="" name="email" required="" type="text">
+											<label>YOUR RATING*</label>
+											<div class="rate">
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+												<i class="fa fa-star-o" aria-hidden="true"></i>
+											</div>	
+										</div>
+										
+										<div class="form-group col-sm-6">
+											<label>YOUR REVIEW*</label>
+											<textarea class="form-control" id="input-enquiry" rows="10" name="enquiry" placeholder="" required=""></textarea>
+											<button type="submit" value="Submit" class="btn btn-primary btnus">Submit</button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="book-now col-sm-12">
+					<h1>BOOK NOW <span>$ 650</span></h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent congue purus quis ornare malesuada. Cras vel tellus arcu. Nulla at ullamcorper dui. Aliquam erat volutpat. In velit nulla.</p>
+					<h5>4.30 PM TOUR</h5>
+					<hr>
+					<form class="form-horizontal" method="post">
+						<div class="form-group col-sm-3 paddleft">
+							<div class="date">
+								<label>AVAILABLE ON</label>
+								<input name="s" class="form-control" value="" placeholder="dd/mm/yy" type="text">
+								<button type="button" class="calender"><i class="fa fa-calendar-o" aria-hidden="true"></i></button>
+							</div>
+						</div>	
+						<div class="form-group col-sm-2 padd-left">
+							<label>ADULTS</label>
+							<select class="selectpicker form-control" name=	"location">
+								<option value="1">01</option>
+								<option value="0">02</option>
+								<option value="0">03</option>
+								<option value="0">04</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-2 padd-left">
+							<label>KIDS</label>
+							<select class="selectpicker form-control" name=	"location">
+								<option value="1">01</option>
+								<option value="0">02</option>
+								<option value="0">03</option>
+								<option value="0">04</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-2 padd-left">
+							<label>TOTAL AMOUNT</label>
+							<input name="s" class="form-control" value="" placeholder="$650.00" type="text">
+						</div>
+						<div class="col-sm-3 mar-t padd-left">
+							<a href="tour-booking-form.html" class="btn-primary">Book NOW</a>
+						</div>
+					</form>
+				</div>
+				
+				<div class="clearfix"></div>
+				
+				<div class="row tour packages">
+					<div class="places related">
+						<h1>related packages</h1>
+						<hr>
+					</div>
+					<div class="owl-carousel" id="related-pro">
+						<div class="item">	
+							<div class="product-layout product-grid col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="product-thumb">
+									<div class="image">
+										<a href="#"><img src="images/package/01.jpg" alt="image" title="image" class="img-responsive" /></a>
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<ul class="list-inline link">
+											<li><i class="fa fa-clock-o"></i>12 Days</li>
+											<li><i class="fa fa-map-marker"></i> South Africa</li>
+											<li><i class="fa fa-dollar"></i> 3100</li>
+										</ul>
+										<div class="inner">
+											<h4>Safari Tour</h4>
+											<div class="rate">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-half-o" aria-hidden="true"></i>
+											</div>
+											<ul class="list-inline">
+												<li><i class="fa fa-map-marker"></i> South Africa</li>
+												<li><i class="fa fa-clock-o"></i>12 Days</li>
+											</ul>	
+											<p class="des">Lorem ipsum dolor sit amet, consectetur dolor sit amet[...]</p>
+										</div>
+										<div class="text-left">
+											<button type="button" onclick="location.href='hotel-booking-form.html'">Book Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<button type="button" onclick="location.href='package-detail-view.html'">View More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<p>$3100.00</p>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">	
+							<div class="product-layout product-grid col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="product-thumb">
+									<div class="image">
+										<a href="#"><img src="images/package/02.jpg" alt="image" title="image" class="img-responsive" /></a>
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<ul class="list-inline link">
+											<li><i class="fa fa-clock-o"></i>12 Days</li>
+											<li><i class="fa fa-map-marker"></i> South Africa</li>
+											<li><i class="fa fa-dollar"></i> 3100</li>
+										</ul>
+										<div class="inner">
+											<h4>Safari Tour</h4>
+											<div class="rate">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-half-o" aria-hidden="true"></i>
+											</div>
+											<ul class="list-inline">
+												<li><i class="fa fa-map-marker"></i> South Africa</li>
+												<li><i class="fa fa-clock-o"></i>12 Days</li>
+											</ul>	
+											<p class="des">Lorem ipsum dolor sit amet, consectetur dolor sit amet[...]</p>
+										</div>
+										<div class="text-left">
+											<button type="button" onclick="location.href='hotel-booking-form.html'">Book Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<button type="button" onclick="location.href='package-detail-view.html'">View More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<p>$3100.00</p>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">	
+							<div class="product-layout product-grid col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="product-thumb">
+									<div class="image">
+										<a href="#"><img src="images/package/03.jpg" alt="image" title="image" class="img-responsive" /></a>
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<ul class="list-inline link">
+											<li><i class="fa fa-clock-o"></i>12 Days</li>
+											<li><i class="fa fa-map-marker"></i> South Africa</li>
+											<li><i class="fa fa-dollar"></i> 3100</li>
+										</ul>
+										<div class="inner">
+											<h4>Safari Tour</h4>
+											<div class="rate">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-half-o" aria-hidden="true"></i>
+											</div>
+											<ul class="list-inline">
+												<li><i class="fa fa-map-marker"></i> South Africa</li>
+												<li><i class="fa fa-clock-o"></i>12 Days</li>
+											</ul>	
+											<p class="des">Lorem ipsum dolor sit amet, consectetur dolor sit amet[...]</p>
+										</div>
+										<div class="text-left">
+											<button type="button" onclick="location.href='hotel-booking-form.html'">Book Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<button type="button" onclick="location.href='package-detail-view.html'">View More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<p>$3100.00</p>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">	
+							<div class="product-layout product-grid col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="product-thumb">
+									<div class="image">
+										<a href="#"><img src="images/package/01.jpg" alt="image" title="image" class="img-responsive" /></a>
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<ul class="list-inline link">
+											<li><i class="fa fa-clock-o"></i>12 Days</li>
+											<li><i class="fa fa-map-marker"></i> South Africa</li>
+											<li><i class="fa fa-dollar"></i> 3100</li>
+										</ul>
+										<div class="inner">
+											<h4>Safari Tour</h4>
+											<div class="rate">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-half-o" aria-hidden="true"></i>
+											</div>
+											<ul class="list-inline">
+												<li><i class="fa fa-map-marker"></i> South Africa</li>
+												<li><i class="fa fa-clock-o"></i>12 Days</li>
+											</ul>	
+											<p class="des">Lorem ipsum dolor sit amet, consectetur dolor sit amet[...]</p>
+										</div>
+										<div class="text-left">
+											<button type="button" onclick="location.href='hotel-booking-form.html'">Book Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<button type="button" onclick="location.href='package-detail-view.html'">View More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<p>$3100.00</p>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">	
+							<div class="product-layout product-grid col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="product-thumb">
+									<div class="image">
+										<a href="#"><img src="images/package/02.jpg" alt="image" title="image" class="img-responsive" /></a>
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<ul class="list-inline link">
+											<li><i class="fa fa-clock-o"></i>12 Days</li>
+											<li><i class="fa fa-map-marker"></i> South Africa</li>
+											<li><i class="fa fa-dollar"></i> 3100</li>
+										</ul>
+										<div class="inner">
+											<h4>Safari Tour</h4>
+											<div class="rate">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-half-o" aria-hidden="true"></i>
+											</div>
+											<ul class="list-inline">
+												<li><i class="fa fa-map-marker"></i> South Africa</li>
+												<li><i class="fa fa-clock-o"></i>12 Days</li>
+											</ul>	
+											<p class="des">Lorem ipsum dolor sit amet, consectetur dolor sit amet[...]</p>
+										</div>
+										<div class="text-left">
+											<button type="button" onclick="location.href='hotel-booking-form.html'">Book Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<button type="button" onclick="location.href='package-detail-view.html'">View More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<p>$3100.00</p>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">	
+							<div class="product-layout product-grid col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="product-thumb">
+									<div class="image">
+										<a href="#"><img src="images/package/03.jpg" alt="image" title="image" class="img-responsive" /></a>
+										<div class="hoverbox">
+											<div class="icon_plus" aria-hidden="true"></div>
+										</div>
+									</div>
+									<div class="caption">
+										<ul class="list-inline link">
+											<li><i class="fa fa-clock-o"></i>12 Days</li>
+											<li><i class="fa fa-map-marker"></i> South Africa</li>
+											<li><i class="fa fa-dollar"></i> 3100</li>
+										</ul>
+										<div class="inner">
+											<h4>Safari Tour</h4>
+											<div class="rate">
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star" aria-hidden="true"></i>
+												<i class="fa fa-star-half-o" aria-hidden="true"></i>
+											</div>
+											<ul class="list-inline">
+												<li><i class="fa fa-map-marker"></i> South Africa</li>
+												<li><i class="fa fa-clock-o"></i>12 Days</li>
+											</ul>	
+											<p class="des">Lorem ipsum dolor sit amet, consectetur dolor sit amet[...]</p>
+										</div>
+										<div class="text-left">
+											<button type="button" onclick="location.href='hotel-booking-form.html'">Book Now <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<button type="button" onclick="location.href='package-detail-view.html'">View More <i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+											<p>$3100.00</p>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</div>
+<!-- main container end here -->
+
+<!-- news start here -->
+<div class="news">
+	<img src="images/subscribe-bg.jpg" class="img-responsive sub" alt="subscribe-bg" title="subscribe-bg" />
+	<div class="newsinner">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<div class="product-thumb">
+					<div class="image">
+						<a href="#"><img src="images/foot-banner1.png" alt="foot-banner1" title="foot-banner1" class="img-responsive" /></a>
+						<div class="hoverbox"></div>
+						<div class="matter">
+							<p class="des"><span class="icon_building_alt"></span> Hotel</p>
+							<button type="button"> Booking Now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="product-thumb">
+					<div class="image">
+						<a href="#"><img src="images/foot-banner2.png" alt="foot-banner2" title="foot-banner2" class="img-responsive" /></a>
+						<div class="hoverbox"></div>
+						<div class="off">
+							<span>Best Packages</span>
+						</div>
+						<div class="matter">
+							<p class="des1">$1000 <span>Package</span> to <small>Dubai</small></p>
+							<button type="button"> Booking Now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<div class="product-thumb">
+					<div class="image">
+						<a href="#"><img src="images/foot-banner3.png" alt="foot-banner3" title="foot-banner3" class="img-responsive" /></a>
+						<div class="hoverbox"></div>
+						<div class="matter">
+							<p class="des2"><i class="icon_percent_alt"></i> 25% off<br> to <span>Island</span></p>
+							<button type="button"> Booking Now</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-xs-12">
+				<form class="subscribe">
+					<div class="form-group">
+						<div class="input-group">
+							<label>Subscribe to our newsletter</label>
+							<input placeholder="Enter your email" name="subscribe_email" value="" type="text">
+							<button class="btn btn-default btn-lg" type="submit">Subscribe Now</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</div>
+</div>
+<!-- news end here -->
+
+<!-- footer start here -->
+<footer>
+	<div class="container">
+		<div class="row padd-b">
+			<div class="col-sm-3">
+				<img src="images/foot-logo.png" class="img-responsive" alt="foot-logo" title="foot-logo" />
+				<p class="des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit condimen-tum tortor, eget ultricies ante luctus sed. Praesent lobortis scelerisque ipsum sed commodo[...]</p>
+			</div>
+			<div class="col-sm-3 contact">
+				<h3>Contact us</h3>
+				<ul class="list-inline">
+					<li>
+						<div class="inner"><i class="fa fa-home" aria-hidden="true"></i> Address</div>
+						<div class="in"><a href="#"> : 123 Lorem  ipsum dolor, Ludhiana, India</a></div>
+					</li>
+					<li>
+						<div class="inner"><i class="fa fa-phone" aria-hidden="true"></i>Phone No.</div>
+						<div class="in"><a href="#"> : (+91)123457890, (1234)</a></div>
+					</li>
+					<li>
+						<div class="inner"><i class="fa fa-envelope" aria-hidden="true"></i>Email</div>
+						<div class="in"><a href="#"> : 1234@example.com</a></div>
+						<br>
+						<div class="inner paddleft">website</div>
+						<div class="in"><a href="#">  : www.Domain.com</a></div>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3 info">
+				<h3>Information</h3>
+				<ul class="list-inline">
+					<li><a href="index-2.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Home</a></li>
+					<li><a href="login.html"><i class="fa fa-angle-right" aria-hidden="true"></i>My Account</a></li>
+					<li><a href="about.html"><i class="fa fa-angle-right" aria-hidden="true"></i>About</a></li>
+					<li><a href="packages.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Packages</a></li>
+					<li><a href="gallery.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gallery</a></li>
+					<li><a href="tour-grid-view.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Best Tour</a></li>
+					<li><a href="hotel.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Hotels</a></li>
+					<li><a href="place.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Best Places</a></li>
+					<li><a href="blog.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Blog</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-3 insta">
+				<h3>Instagram</h3>
+				<ul class="list-inline">
+					<li><img src="images/ins1.jpg" class="img-responsive" title="ins1" alt="ins1" /></li>
+					<li><img src="images/ins2.jpg" class="img-responsive" title="ins2" alt="ins2" /></li>
+					<li><img src="images/ins3.jpg" class="img-responsive" title="ins3" alt="ins3" /></li>
+					<li><img src="images/ins4.jpg" class="img-responsive" title="ins4" alt="ins4" /></li>
+					<li><img src="images/ins5.jpg" class="img-responsive" title="ins5" alt="ins5" /></li>
+					<li><img src="images/ins6.jpg" class="img-responsive" title="ins6" alt="ins6" /></li>
+					<li><img src="images/ins7.jpg" class="img-responsive" title="ins7" alt="ins7" /></li>
+					<li><img src="images/ins8.jpg" class="img-responsive" title="ins8" alt="ins8" /></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="powered">
+					<div class="col-sm-6 padd0">
+						<p>© Copyright 2017. <span>TMD Travel Agency </span> by <a target="_blank" href="https://www.themultimediadesigner.com/">The Multimedia Designer</a> </p>
+					</div>
+					<div class="col-sm-6 padd0 text-right">
+						<div class="social-icon">
+							<ul class="list-inline">
+								<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="https://plus.google.com/" target="_blank"><i class="social_googleplus" aria-hidden="true"></i></a></li>
+								<li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="https://in.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+								<li><a href="https://photos.google.com/" target="_blank"><i class="social_picassa"></i></a></li>
+								<li><a href="https://www.youtube.com/?gl=IN" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer end here -->
+
+<!-- jquery -->
+<script src="js/jquery.2.1.1.min.js"></script>
+<!-- bootstrap js -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/check.js"></script>
+<script src="js/preetycheble/prettyCheckable.min.js"></script>	
+<!--bootstrap select-->
+<script src="js/dist/js/bootstrap-select.js"></script>
+<!-- owlcarousel js -->
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<!--internal js-->
+<script src="js/internal.js"></script>
+<!--date js-->
+<script src="js/datetimepicker/moment.js"></script>
+<script src="js/datetimepicker/bootstrap-datetimepicker.min.js"></script>
+</body>
+
+<!-- Mirrored from wptheme.co.in/travel-html/package-detail-view.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 May 2019 16:36:04 GMT -->
+</html>
